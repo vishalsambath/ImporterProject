@@ -1,8 +1,9 @@
 const csv = require('csv-parser')
 const path = require('path');
 const fs = require('fs')
-const file = 'materials.csv';
+const file = 'material_data_final.csv';
 const results = [];
+const validate=require('./validator')
 
 //=================DB Connection==========================
 const mysql = require('mysql');
@@ -20,17 +21,32 @@ connection.connect((err) => {
 
 switch (path.extname(file)) {
     case '.csv':
-        //===============Inserting CSV values to DB===============
+        //===============Inserting CSV values to DB===================
+        let rowCount = 2;
+        let missingValue = false;
         fs.createReadStream(file)
             .pipe(csv())
             .on('data', (data) => {
-                results.push([data.material_description, data.brand, data.category, data.pack_size, data.pack_type, parseInt(data.mapping_material_id)])
+                if (Object.keys(data).length != 6) { //check if there are any missing values in csv
+                    missingValue = true;
+                }
+                else {
+                    if (!Number(data.mapping_material_id)) { //check if mapping material id is Integer
+                        console.log('Invalid mapping material ID of CSV');
+                        missingValue = true;
+                    }
+                    else {
+                        results.push([data.material_description, data.brand, data.category, data.pack_size, data.pack_type, parseInt(data.mapping_material_id)])
+                    }
+                }
             })
             .on('end', () => {
-                insertRows(results);
-                console.log('Inserted rows')
+                if (!missingValue) {
+                    insertRows(results);
+                    console.log('Inserted rows')
+                }
             })
-        // ========================================================
+        // ============================================================
         break;
 
     case '.json':
@@ -40,16 +56,33 @@ switch (path.extname(file)) {
             // Check for errors
             if (err) throw err;
 
-            // Converting to JSON obj
+            // Converting to JSON
             const materials = JSON.parse(data);
+            let missingValue = false;
             for (let i in materials) {
-                results.push([materials[i].material_description, materials[i].brand, materials[i].category, materials[i].pack_size, materials[i].pack_type, parseInt(materials[i].mapping_material_id)])
+                // console.log(i)
+                if (!materials[i].material_description || !materials[i].mapping_material_id) {//check if any mandatory fields are missing
+                    console.log('Missing important key values')
+                }
+                else {
+                    if (!Number(data.mapping_material_id)) {// check if mapping material id is Integer
+                        console.log("Invalid mapping material ID")
+                        missingValue = true;
+                    }
+                    else {
+                        results.push([materials[i].material_description, materials[i].brand, materials[i].category, materials[i].pack_size, materials[i].pack_type, parseInt(materials[i].mapping_material_id)])
+                    }
+                }
             }
-            insertRows(results);
-            console.log('Inserted Rows');
+            if (!missingValue) {
+                insertRows(results);
+                console.log('Done');
+            }
         })
-        //========================================================
+        //=====================================
         break;
+
+
     default:
         console.log('File extension not supported! Please provide data in .csv or .json format');
         break;
@@ -59,34 +92,3 @@ function insertRows(arr) {
     let sql = "INSERT INTO materials ( material_description,brand,category,pack_size,pack_type,mapping_material_id) VALUES ?";
     connection.query(sql, [arr]);
 }
-
-// const arr = [
-
-//     {
-//         material_description: "16Z CN 24LS_AHA BLUBRY POM",
-//         brand: "AHA-KO",
-//         category: "PACKAGED WATER (PLAIN & ENRICHED)",
-//         pack_size: "16 OZ",
-//         pack_type: "Aluminum Can",
-//         mapping_material_id: 657
-//     }
-
-// ]
-// const arr1 = [
-//     ["16Z CN 24LS_AHA BLUBRY POM", "AHA-KO", "PACKAGED WATER (PLAIN & ENRICHED)", "16 OZ", "Aluminum Can", 657],
-//     ["16Z CN 24LS_AHA BLUBRY POM", "AHA-KO", "PACKAGED WATER (PLAIN & ENRICHED)", "16 OZ", "Aluminum Can", 657]
-// ]
-
-// const createReader = fs.createReadStream('materials.json');
-
-// createReader.on('data', (data) => {
-//     let i=0;
-//     const materials = JSON.parse(data);
-//     for(let i in materials)
-//     {
-//         console.log(i)
-//         results2.push([materials[i].material_description,materials[i].brand,materials[i].category,materials[i].pack_size,materials[i].pack_type,materials[i].mapping_material_id])
-//     }
-//     console.log(results2)
-
-// });
