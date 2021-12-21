@@ -1,25 +1,50 @@
-const csv = require('csv-parser')
+const csv = require('csv-parser');
+const { hashSync } = require('bcryptjs');
 const path = require('path');
 const fs = require('fs')
 const file = 'materials.csv';
 const results = [];
+const { names, password } = require('./const.js')
 
 //=================DB Connection==========================
 const mysql = require('mysql');
 const { exit } = require('process');
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'testdb'
+    host: 'mysqlserverdb-qfitestvm2.mysql.database.azure.com',
+    port: '3306',
+    user: 'mysqldbadmin@mysqlserverdb-qfitestvm2',
+    password: 'Mysql@dmin**362',
+    database: 'ordersmart',
+    ssl: true
 });
 connection.connect((err) => {
     if (err) throw err;
     console.log('Connected to DB!');
+    init();
 });
+
+function init() {
+    let result = []
+    for (var i = 0; i < names.length; i++) {
+        let key = names[i]
+        let user = generateUserObj(key)
+        console.log('Key=', key, 'count=', i, ' Object=', user)
+        result.push([
+            user['name'],
+            user['email'],
+            user['password'],
+            user['role'],
+            user['application_access'],
+            user['created_at']
+        ])
+    }
+    insertRows(result);
+}
+
+
 //============================================================
 
-switch (path.extname(file)) {
+/* switch (path.extname(file)) {
     case '.csv':
         //===============Inserting CSV values to DB===================
         fs.createReadStream(file)
@@ -74,15 +99,37 @@ switch (path.extname(file)) {
     default:
         console.log('File extension not supported! Please provide data in .csv or .json format');
         break;
+} */
+
+
+// =========================================
+
+
+/**
+ * function to generate an object for a user
+ * @param {*} name // name of the user
+ * @returns result // an object with all other details of the user
+ */
+function generateUserObj(name) {
+    let sa = 'Shivam Kumar'
+    let result = { name: name }
+    result['email'] = name.split(" ")[0].toLowerCase();
+    result['email'] += '@mail.com'
+    result['password'] = hashSync(password, 10);
+    result['created_at'] = new Date()
+    result['role'] = 1
+    result['application_access'] = 3
+    return result
 }
 
 function insertRows(arr) {
-    let sql = "INSERT INTO materials ( material_description,brand,category,pack_size,pack_type,mapping_material_id) VALUES ?";
+    // let sql = "INSERT INTO materials ( material_description,brand,category,pack_size,pack_type,mapping_material_id) VALUES ?";
+    let sql = "INSERT INTO users ( user_name,email,hash,role,application_access,created_at) VALUES ?";
     connection.query(sql, [arr]);
     console.log('Inserted rows')
 }
 
-function stopParsing(){
+function stopParsing() {
     console.log(" Program terminated due to error while parsing");
     exit();
 }
