@@ -1,17 +1,22 @@
 const csv = require('csv-parser')
 const path = require('path');
 const fs = require('fs')
-const file = 'materials.csv';
+const file = 'materials_benchmark.csv';
 const results = [];
-
+const serverCa = [fs.readFileSync("BaltimoreCyberTrustRoot.crt.pem", "utf8")];
 //=================DB Connection==========================
 const mysql = require('mysql');
 const { exit } = require('process');
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'testdb'
+    host: 'mysqlserverdb-qfitestvm2.mysql.database.azure.com',
+    user: 'mysqldbadmin@mysqlserverdb-qfitestvm2',
+    password: 'Mysql@dmin**362',
+    database: 'ordersmart',
+    PORT: 3306,
+    ssl: {
+        rejectUnauthorized: true,
+        ca: serverCa
+    }
 });
 connection.connect((err) => {
     if (err) throw err;

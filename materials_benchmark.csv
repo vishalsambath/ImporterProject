@@ -1,0 +1,501 @@
+material_description,brand,category,pack_size,pack_type,mapping_material_id
+material_1,brand_1,catergory_1,37 OZ,Plastic Bottle- Other,296
+material_2,brand_2,catergory_2,1.25 LTR,Plastic Bottle- Other,62
+material_3,brand_3,catergory_3,25 OZ,Bag-in-box,427
+material_4,brand_4,catergory_4,12 OZ,Bag-in-box,89
+material_5,brand_5,catergory_5,50 OZ,Plastic Bottle- Other,234
+material_6,brand_6,catergory_6,2.5 GALLON,Bag-in-box,153
+material_7,brand_7,catergory_7,34 LTR,Glass Bottle- Other,332
+material_8,brand_8,catergory_8,2.5 GALLON,Plastic Bottle,81
+material_9,brand_9,catergory_9,16 OZ,Glass Bottle- Other,305
+material_10,brand_10,catergory_10,22 OZ,Plastic Bottle- Other,320
+material_11,brand_11,catergory_11,1.25 LTR,Bag-in-box,249
+material_12,brand_12,catergory_12,20 OZ,Bag-in-box,17
+material_13,brand_13,catergory_13,28 OZ,Aluminium Can,55
+material_14,brand_14,catergory_14,2.5 GALLON,Aluminium Can,137
+material_15,brand_15,catergory_15,385 ML,Glass Bottle- Other,99
+material_16,brand_16,catergory_16,2.5 GALLON,Plastic Bottle,458
+material_17,brand_17,catergory_17,1.25 LTR,Glass Bottle- Other,362
+material_18,brand_18,catergory_18,34 OZ,Glass Bottle- Other,483
+material_19,brand_19,catergory_19,1.25 LTR,Glass Bottle- Other,263
+material_20,brand_20,catergory_20,16.9 OZ,Plastic Bottle- Other,88
+material_21,brand_21,catergory_21,16 OZ,Plastic Bottle,416
+material_22,brand_22,catergory_22,1.25 LTR,Plastic Bottle- Other,254
+material_23,brand_23,catergory_23,2.5 GALLON,Plastic Bottle,134
+material_24,brand_24,catergory_24,42 OZ,Bag-in-box,388
+material_25,brand_25,catergory_25,16.9 OZ,Plastic Bottle,71
+material_26,brand_26,catergory_26,389 ML,Glass Bottle- Other,435
+material_27,brand_27,catergory_27,12 OZ,Plastic Bottle- Other,206
+material_28,brand_28,catergory_28,25 OZ,Aluminium Can,212
+material_29,brand_29,catergory_29,24 GALLON,Bag-in-box,266
+material_30,brand_30,catergory_30,8.55 OZ,Plastic Bottle- Other,414
+material_31,brand_31,catergory_31,2.5 GALLON,Aluminium Can,37
+material_32,brand_32,catergory_32,16 OZ,Aluminium Can,481
+material_33,brand_33,catergory_33,6 GALLON,Aluminium Can,375
+material_34,brand_34,catergory_34,44 OZ,Aluminium Can,492
+material_35,brand_35,catergory_35,8.55 OZ,Plastic Bottle- Other,238
+material_36,brand_36,catergory_36,16 OZ,Aluminium Can,424
+material_37,brand_37,catergory_37,16.9 OZ,Plastic Bottle- Other,478
+material_38,brand_38,catergory_38,29 OZ,Bag-in-box,488
+material_39,brand_39,catergory_39,12 OZ,Aluminium Can,215
+material_40,brand_40,catergory_40,9 OZ,Bag-in-box,73
+material_41,brand_41,catergory_41,30 OZ,Aluminium Can,210
+material_42,brand_42,catergory_42,11 GALLON,Plastic Bottle- Other,12
+material_43,brand_43,catergory_43,8.55 OZ,Plastic Bottle- Other,250
+material_44,brand_44,catergory_44,8.55 OZ,Glass Bottle- Other,441
+material_45,brand_45,catergory_45,382 ML,Plastic Bottle- Other,6
+material_46,brand_46,catergory_46,48 OZ,Bag-in-box,385
+material_47,brand_47,catergory_47,393 ML,Bag-in-box,205
+material_48,brand_48,catergory_48,2 LTR,Bag-in-box,382
+material_49,brand_49,catergory_49,16.9 OZ,Plastic Bottle,34
+material_50,brand_50,catergory_50,16 OZ,Plastic Bottle- Other,194
+material_51,brand_51,catergory_51,20 OZ,Plastic Bottle,133
+material_52,brand_52,catergory_52,15 LTR,Bag-in-box,226
+material_53,brand_53,catergory_53,19 GALLON,Aluminium Can,225
+material_54,brand_54,catergory_54,1.25 LTR,Plastic Bottle,257
+material_55,brand_55,catergory_55,12 OZ,Aluminium Can,485
+material_56,brand_56,catergory_56,16.9 OZ,Aluminium Can,221
+material_57,brand_57,catergory_57,27 GALLON,Plastic Bottle,459
+material_58,brand_58,catergory_58,2.5 GALLON,Plastic Bottle- Other,200
+material_59,brand_59,catergory_59,10 LTR,Plastic Bottle- Other,87
+material_60,brand_60,catergory_60,33 GALLON,Bag-in-box,90
+material_61,brand_61,catergory_61,384 ML,Aluminium Can,418
+material_62,brand_62,catergory_62,1.25 LTR,Plastic Bottle,383
+material_63,brand_63,catergory_63,30 LTR,Bag-in-box,172
+material_64,brand_64,catergory_64,16.9 OZ,Aluminium Can,213
+material_65,brand_65,catergory_65,20 OZ,Plastic Bottle- Other,103
+material_66,brand_66,catergory_66,28 GALLON,Plastic Bottle,196
+material_67,brand_67,catergory_67,43 OZ,Plastic Bottle,361
+material_68,brand_68,catergory_68,371 ML,Bag-in-box,148
+material_69,brand_69,catergory_69,16 OZ,Bag-in-box,159
+material_70,brand_70,catergory_70,2.5 GALLON,Bag-in-box,182
+material_71,brand_71,catergory_71,21 LTR,Bag-in-box,423
+material_72,brand_72,catergory_72,41 OZ,Aluminium Can,40
+material_73,brand_73,catergory_73,41 GALLON,Bag-in-box,323
+material_74,brand_74,catergory_74,20 OZ,Bag-in-box,138
+material_75,brand_75,catergory_75,366 ML,Plastic Bottle,271
+material_76,brand_76,catergory_76,1.25 LTR,Aluminium Can,337
+material_77,brand_77,catergory_77,8.55 OZ,Plastic Bottle- Other,431
+material_78,brand_78,catergory_78,45 OZ,Plastic Bottle,235
+material_79,brand_79,catergory_79,1.25 LTR,Plastic Bottle- Other,342
+material_80,brand_80,catergory_80,31 OZ,Aluminium Can,122
+material_81,brand_81,catergory_81,20 OZ,Aluminium Can,45
+material_82,brand_82,catergory_82,12 OZ,Glass Bottle- Other,46
+material_83,brand_83,catergory_83,17 OZ,Plastic Bottle- Other,9
+material_84,brand_84,catergory_84,4 LTR,Bag-in-box,3
+material_85,brand_85,catergory_85,40 OZ,Aluminium Can,499
+material_86,brand_86,catergory_86,12 OZ,Aluminium Can,300
+material_87,brand_87,catergory_87,39 OZ,Bag-in-box,387
+material_88,brand_88,catergory_88,390 ML,Aluminium Can,307
+material_89,brand_89,catergory_89,16.9 OZ,Plastic Bottle- Other,201
+material_90,brand_90,catergory_90,8.55 OZ,Plastic Bottle,453
+material_91,brand_91,catergory_91,16.9 OZ,Plastic Bottle- Other,57
+material_92,brand_92,catergory_92,1.25 LTR,Plastic Bottle,286
+material_93,brand_93,catergory_93,2.5 GALLON,Plastic Bottle- Other,252
+material_94,brand_94,catergory_94,2.5 GALLON,Aluminium Can,476
+material_95,brand_95,catergory_95,379 ML,Plastic Bottle,294
+material_96,brand_96,catergory_96,16 OZ,Plastic Bottle,281
+material_97,brand_97,catergory_97,20 OZ,Aluminium Can,197
+material_98,brand_98,catergory_98,16.9 OZ,Plastic Bottle- Other,178
+material_99,brand_99,catergory_99,43 OZ,Plastic Bottle,86
+material_100,brand_100,catergory_100,31 LTR,Plastic Bottle- Other,170
+material_101,brand_101,catergory_101,11 OZ,Glass Bottle- Other,141
+material_102,brand_102,catergory_102,21 OZ,Aluminium Can,276
+material_103,brand_103,catergory_103,35 OZ,Plastic Bottle- Other,355
+material_104,brand_104,catergory_104,8.55 OZ,Bag-in-box,53
+material_105,brand_105,catergory_105,8.55 OZ,Plastic Bottle,183
+material_106,brand_106,catergory_106,7 GALLON,Plastic Bottle- Other,155
+material_107,brand_107,catergory_107,8.55 OZ,Plastic Bottle,455
+material_108,brand_108,catergory_108,36 OZ,Aluminium Can,240
+material_109,brand_109,catergory_109,14 LTR,Bag-in-box,149
+material_110,brand_110,catergory_110,26 OZ,Aluminium Can,463
+material_111,brand_111,catergory_111,14 OZ,Aluminium Can,494
+material_112,brand_112,catergory_112,9 LTR,Aluminium Can,338
+material_113,brand_113,catergory_113,38 OZ,Glass Bottle- Other,411
+material_114,brand_114,catergory_114,24 OZ,Plastic Bottle,326
+material_115,brand_115,catergory_115,16 OZ,Plastic Bottle,462
+material_116,brand_116,catergory_116,12 OZ,Aluminium Can,209
+material_117,brand_117,catergory_117,2.5 GALLON,Bag-in-box,433
+material_118,brand_118,catergory_118,34 OZ,Bag-in-box,498
+material_119,brand_119,catergory_119,36 OZ,Plastic Bottle- Other,167
+material_120,brand_120,catergory_120,12 OZ,Aluminium Can,79
+material_121,brand_121,catergory_121,2.5 GALLON,Plastic Bottle- Other,41
+material_122,brand_122,catergory_122,29 OZ,Plastic Bottle- Other,460
+material_123,brand_123,catergory_123,35 GALLON,Plastic Bottle,132
+material_124,brand_124,catergory_124,49 OZ,Bag-in-box,348
+material_125,brand_125,catergory_125,12 OZ,Plastic Bottle- Other,493
+material_126,brand_126,catergory_126,375 ML,Plastic Bottle,243
+material_127,brand_127,catergory_127,16 OZ,Bag-in-box,112
+material_128,brand_128,catergory_128,369 ML,Aluminium Can,440
+material_129,brand_129,catergory_129,8.55 OZ,Plastic Bottle- Other,272
+material_130,brand_130,catergory_130,35 OZ,Glass Bottle- Other,344
+material_131,brand_131,catergory_131,12 OZ,Plastic Bottle- Other,311
+material_132,brand_132,catergory_132,2.5 GALLON,Glass Bottle- Other,407
+material_133,brand_133,catergory_133,16 OZ,Aluminium Can,131
+material_134,brand_134,catergory_134,38 OZ,Glass Bottle- Other,61
+material_135,brand_135,catergory_135,20 OZ,Aluminium Can,175
+material_136,brand_136,catergory_136,35 OZ,Plastic Bottle,176
+material_137,brand_137,catergory_137,19 LTR,Bag-in-box,394
+material_138,brand_138,catergory_138,26 GALLON,Aluminium Can,227
+material_139,brand_139,catergory_139,20 OZ,Aluminium Can,119
+material_140,brand_140,catergory_140,29 GALLON,Bag-in-box,335
+material_141,brand_141,catergory_141,12 OZ,Aluminium Can,63
+material_142,brand_142,catergory_142,381 ML,Aluminium Can,127
+material_143,brand_143,catergory_143,30 GALLON,Plastic Bottle,19
+material_144,brand_144,catergory_144,372 ML,Plastic Bottle- Other,140
+material_145,brand_145,catergory_145,1.25 LTR,Plastic Bottle- Other,152
+material_146,brand_146,catergory_146,362 ML,Aluminium Can,425
+material_147,brand_147,catergory_147,8.55 OZ,Plastic Bottle,255
+material_148,brand_148,catergory_148,16 OZ,Glass Bottle- Other,442
+material_149,brand_149,catergory_149,27 OZ,Plastic Bottle,269
+material_150,brand_150,catergory_150,8.55 OZ,Plastic Bottle- Other,356
+material_151,brand_151,catergory_151,1.25 LTR,Plastic Bottle,312
+material_152,brand_152,catergory_152,2.5 GALLON,Glass Bottle- Other,126
+material_153,brand_153,catergory_153,27 LTR,Plastic Bottle,413
+material_154,brand_154,catergory_154,16 LTR,Aluminium Can,117
+material_155,brand_155,catergory_155,16.9 OZ,Plastic Bottle- Other,345
+material_156,brand_156,catergory_156,1.25 LTR,Aluminium Can,313
+material_157,brand_157,catergory_157,374 ML,Bag-in-box,123
+material_158,brand_158,catergory_158,48 OZ,Plastic Bottle- Other,489
+material_159,brand_159,catergory_159,386 ML,Plastic Bottle- Other,329
+material_160,brand_160,catergory_160,17 OZ,Glass Bottle- Other,49
+material_161,brand_161,catergory_161,8.55 OZ,Plastic Bottle,21
+material_162,brand_162,catergory_162,1.25 LTR,Bag-in-box,198
+material_163,brand_163,catergory_163,8.55 OZ,Plastic Bottle,461
+material_164,brand_164,catergory_164,20 OZ,Plastic Bottle,108
+material_165,brand_165,catergory_165,23 OZ,Plastic Bottle,306
+material_166,brand_166,catergory_166,12 OZ,Bag-in-box,372
+material_167,brand_167,catergory_167,17 GALLON,Aluminium Can,207
+material_168,brand_168,catergory_168,18 OZ,Bag-in-box,105
+material_169,brand_169,catergory_169,16.9 OZ,Plastic Bottle,139
+material_170,brand_170,catergory_170,1.25 LTR,Bag-in-box,331
+material_171,brand_171,catergory_171,12 OZ,Plastic Bottle,470
+material_172,brand_172,catergory_172,20 OZ,Plastic Bottle- Other,143
+material_173,brand_173,catergory_173,36 LTR,Aluminium Can,118
+material_174,brand_174,catergory_174,16.9 OZ,Bag-in-box,310
+material_175,brand_175,catergory_175,16.9 OZ,Plastic Bottle- Other,219
+material_176,brand_176,catergory_176,1.25 LTR,Plastic Bottle,164
+material_177,brand_177,catergory_177,20 OZ,Plastic Bottle- Other,457
+material_178,brand_178,catergory_178,8.55 OZ,Glass Bottle- Other,341
+material_179,brand_179,catergory_179,16.9 OZ,Bag-in-box,231
+material_180,brand_180,catergory_180,37 OZ,Aluminium Can,430
+material_181,brand_181,catergory_181,12 OZ,Bag-in-box,346
+material_182,brand_182,catergory_182,12 OZ,Glass Bottle- Other,491
+material_183,brand_183,catergory_183,47 OZ,Glass Bottle- Other,171
+material_184,brand_184,catergory_184,16 OZ,Bag-in-box,23
+material_185,brand_185,catergory_185,23 GALLON,Plastic Bottle- Other,116
+material_186,brand_186,catergory_186,8.55 OZ,Glass Bottle- Other,415
+material_187,brand_187,catergory_187,2.5 GALLON,Plastic Bottle- Other,69
+material_188,brand_188,catergory_188,42 OZ,Glass Bottle- Other,67
+material_189,brand_189,catergory_189,23 OZ,Plastic Bottle- Other,76
+material_190,brand_190,catergory_190,29 LTR,Plastic Bottle,369
+material_191,brand_191,catergory_191,12 OZ,Plastic Bottle,244
+material_192,brand_192,catergory_192,368 ML,Plastic Bottle,393
+material_193,brand_193,catergory_193,27 OZ,Bag-in-box,4
+material_194,brand_194,catergory_194,12 OZ,Plastic Bottle- Other,304
+material_195,brand_195,catergory_195,373 ML,Bag-in-box,260
+material_196,brand_196,catergory_196,363 ML,Aluminium Can,370
+material_197,brand_197,catergory_197,16.9 OZ,Bag-in-box,358
+material_198,brand_198,catergory_198,20 OZ,Aluminium Can,268
+material_199,brand_199,catergory_199,42 OZ,Plastic Bottle,403
+material_200,brand_200,catergory_200,6 LTR,Bag-in-box,22
+material_201,brand_201,catergory_201,16.9 OZ,Aluminium Can,192
+material_202,brand_202,catergory_202,8.55 OZ,Glass Bottle- Other,157
+material_203,brand_203,catergory_203,12 OZ,Bag-in-box,136
+material_204,brand_204,catergory_204,17 OZ,Aluminium Can,422
+material_205,brand_205,catergory_205,2.5 GALLON,Plastic Bottle- Other,349
+material_206,brand_206,catergory_206,16 OZ,Plastic Bottle,449
+material_207,brand_207,catergory_207,32 GALLON,Bag-in-box,297
+material_208,brand_208,catergory_208,1.25 LTR,Aluminium Can,436
+material_209,brand_209,catergory_209,18 GALLON,Plastic Bottle- Other,406
+material_210,brand_210,catergory_210,8.55 OZ,Plastic Bottle- Other,174
+material_211,brand_211,catergory_211,387 ML,Glass Bottle- Other,179
+material_212,brand_212,catergory_212,16.9 OZ,Plastic Bottle- Other,161
+material_213,brand_213,catergory_213,1.25 LTR,Bag-in-box,339
+material_214,brand_214,catergory_214,16.9 OZ,Plastic Bottle- Other,288
+material_215,brand_215,catergory_215,42 GALLON,Plastic Bottle- Other,264
+material_216,brand_216,catergory_216,2.5 GALLON,Plastic Bottle,299
+material_217,brand_217,catergory_217,1.25 LTR,Bag-in-box,24
+material_218,brand_218,catergory_218,8 LTR,Bag-in-box,267
+material_219,brand_219,catergory_219,14 OZ,Aluminium Can,84
+material_220,brand_220,catergory_220,20 OZ,Plastic Bottle- Other,237
+material_221,brand_221,catergory_221,47 OZ,Plastic Bottle- Other,169
+material_222,brand_222,catergory_222,378 ML,Glass Bottle- Other,473
+material_223,brand_223,catergory_223,41 OZ,Bag-in-box,444
+material_224,brand_224,catergory_224,24 OZ,Aluminium Can,128
+material_225,brand_225,catergory_225,16 OZ,Plastic Bottle,397
+material_226,brand_226,catergory_226,12 OZ,Aluminium Can,115
+material_227,brand_227,catergory_227,25 LTR,Bag-in-box,97
+material_228,brand_228,catergory_228,16.9 OZ,Plastic Bottle- Other,309
+material_229,brand_229,catergory_229,16.9 OZ,Plastic Bottle- Other,236
+material_230,brand_230,catergory_230,33 OZ,Aluminium Can,395
+material_231,brand_231,catergory_231,16 OZ,Plastic Bottle,482
+material_232,brand_232,catergory_232,18 LTR,Plastic Bottle,48
+material_233,brand_233,catergory_233,20 OZ,Aluminium Can,106
+material_234,brand_234,catergory_234,1.25 LTR,Aluminium Can,190
+material_235,brand_235,catergory_235,34 OZ,Bag-in-box,428
+material_236,brand_236,catergory_236,16.9 OZ,Plastic Bottle,429
+material_237,brand_237,catergory_237,22 OZ,Plastic Bottle- Other,292
+material_238,brand_238,catergory_238,21 OZ,Plastic Bottle,1
+material_239,brand_239,catergory_239,8.55 OZ,Plastic Bottle,144
+material_240,brand_240,catergory_240,2.5 GALLON,Aluminium Can,85
+material_241,brand_241,catergory_241,20 OZ,Aluminium Can,295
+material_242,brand_242,catergory_242,20 OZ,Plastic Bottle- Other,380
+material_243,brand_243,catergory_243,12 OZ,Bag-in-box,343
+material_244,brand_244,catergory_244,22 OZ,Bag-in-box,293
+material_245,brand_245,catergory_245,38 OZ,Aluminium Can,325
+material_246,brand_246,catergory_246,10 GALLON,Glass Bottle- Other,95
+material_247,brand_247,catergory_247,1.25 LTR,Bag-in-box,160
+material_248,brand_248,catergory_248,16.9 OZ,Plastic Bottle- Other,166
+material_249,brand_249,catergory_249,355 ML,Aluminium Can,163
+material_250,brand_250,catergory_250,11 LTR,Plastic Bottle,426
+material_251,brand_251,catergory_251,8 OZ,Aluminium Can,28
+material_252,brand_252,catergory_252,1.25 LTR,Aluminium Can,330
+material_253,brand_253,catergory_253,8.55 OZ,Plastic Bottle- Other,454
+material_254,brand_254,catergory_254,20 OZ,Glass Bottle- Other,285
+material_255,brand_255,catergory_255,2.5 GALLON,Plastic Bottle,274
+material_256,brand_256,catergory_256,2.5 GALLON,Aluminium Can,446
+material_257,brand_257,catergory_257,40 GALLON,Glass Bottle- Other,408
+material_258,brand_258,catergory_258,19 OZ,Plastic Bottle,220
+material_259,brand_259,catergory_259,2.5 GALLON,Plastic Bottle,218
+material_260,brand_260,catergory_260,16 OZ,Bag-in-box,334
+material_261,brand_261,catergory_261,16 OZ,Plastic Bottle,386
+material_262,brand_262,catergory_262,19 OZ,Plastic Bottle- Other,357
+material_263,brand_263,catergory_263,1.25 LTR,Aluminium Can,217
+material_264,brand_264,catergory_264,20 OZ,Bag-in-box,443
+material_265,brand_265,catergory_265,12 OZ,Aluminium Can,321
+material_266,brand_266,catergory_266,367 ML,Plastic Bottle,11
+material_267,brand_267,catergory_267,16.9 OZ,Glass Bottle- Other,359
+material_268,brand_268,catergory_268,16 OZ,Glass Bottle- Other,270
+material_269,brand_269,catergory_269,31 GALLON,Aluminium Can,421
+material_270,brand_270,catergory_270,5 GALLON,Bag-in-box,479
+material_271,brand_271,catergory_271,18 OZ,Aluminium Can,104
+material_272,brand_272,catergory_272,16 OZ,Plastic Bottle- Other,447
+material_273,brand_273,catergory_273,33 LTR,Plastic Bottle- Other,52
+material_274,brand_274,catergory_274,16 OZ,Bag-in-box,280
+material_275,brand_275,catergory_275,39 OZ,Plastic Bottle,469
+material_276,brand_276,catergory_276,20 LTR,Plastic Bottle- Other,65
+material_277,brand_277,catergory_277,359 ML,Plastic Bottle,401
+material_278,brand_278,catergory_278,8.55 OZ,Plastic Bottle,363
+material_279,brand_279,catergory_279,17 LTR,Bag-in-box,241
+material_280,brand_280,catergory_280,16 OZ,Plastic Bottle- Other,284
+material_281,brand_281,catergory_281,8.55 OZ,Bag-in-box,486
+material_282,brand_282,catergory_282,12 OZ,Plastic Bottle,379
+material_283,brand_283,catergory_283,16 OZ,Plastic Bottle,439
+material_284,brand_284,catergory_284,15 OZ,Bag-in-box,13
+material_285,brand_285,catergory_285,1.25 LTR,Aluminium Can,258
+material_286,brand_286,catergory_286,12 OZ,Glass Bottle- Other,154
+material_287,brand_287,catergory_287,7 LTR,Glass Bottle- Other,10
+material_288,brand_288,catergory_288,16.9 OZ,Plastic Bottle- Other,474
+material_289,brand_289,catergory_289,41 OZ,Plastic Bottle- Other,464
+material_290,brand_290,catergory_290,20 OZ,Aluminium Can,32
+material_291,brand_291,catergory_291,16.9 OZ,Glass Bottle- Other,400
+material_292,brand_292,catergory_292,12 OZ,Plastic Bottle,58
+material_293,brand_293,catergory_293,20 OZ,Plastic Bottle,100
+material_294,brand_294,catergory_294,16 OZ,Plastic Bottle- Other,256
+material_295,brand_295,catergory_295,33 OZ,Plastic Bottle- Other,228
+material_296,brand_296,catergory_296,22 LTR,Plastic Bottle,420
+material_297,brand_297,catergory_297,16 OZ,Bag-in-box,151
+material_298,brand_298,catergory_298,360 ML,Glass Bottle- Other,374
+material_299,brand_299,catergory_299,12 OZ,Bag-in-box,186
+material_300,brand_300,catergory_300,37 OZ,Aluminium Can,18
+material_301,brand_301,catergory_301,21 OZ,Glass Bottle- Other,289
+material_302,brand_302,catergory_302,364 ML,Plastic Bottle- Other,398
+material_303,brand_303,catergory_303,20 OZ,Bag-in-box,487
+material_304,brand_304,catergory_304,2.5 GALLON,Bag-in-box,282
+material_305,brand_305,catergory_305,16 OZ,Plastic Bottle,38
+material_306,brand_306,catergory_306,376 ML,Bag-in-box,70
+material_307,brand_307,catergory_307,1.25 LTR,Bag-in-box,315
+material_308,brand_308,catergory_308,12 OZ,Plastic Bottle- Other,392
+material_309,brand_309,catergory_309,1.25 LTR,Bag-in-box,156
+material_310,brand_310,catergory_310,20 OZ,Aluminium Can,80
+material_311,brand_311,catergory_311,43 OZ,Plastic Bottle- Other,279
+material_312,brand_312,catergory_312,10 OZ,Plastic Bottle,68
+material_313,brand_313,catergory_313,40 OZ,Plastic Bottle- Other,324
+material_314,brand_314,catergory_314,12 GALLON,Bag-in-box,396
+material_315,brand_315,catergory_315,14 GALLON,Plastic Bottle,432
+material_316,brand_316,catergory_316,20 OZ,Aluminium Can,94
+material_317,brand_317,catergory_317,361 ML,Aluminium Can,368
+material_318,brand_318,catergory_318,391 ML,Aluminium Can,452
+material_319,brand_319,catergory_319,16.9 OZ,Plastic Bottle- Other,318
+material_320,brand_320,catergory_320,16.9 OZ,Plastic Bottle- Other,399
+material_321,brand_321,catergory_321,1.25 LTR,Bag-in-box,124
+material_322,brand_322,catergory_322,16.9 OZ,Bag-in-box,16
+material_323,brand_323,catergory_323,16 OZ,Glass Bottle- Other,173
+material_324,brand_324,catergory_324,16 GALLON,Bag-in-box,245
+material_325,brand_325,catergory_325,16 OZ,Plastic Bottle- Other,490
+material_326,brand_326,catergory_326,20 OZ,Plastic Bottle,29
+material_327,brand_327,catergory_327,2.5 GALLON,Plastic Bottle,78
+material_328,brand_328,catergory_328,13 GALLON,Glass Bottle- Other,189
+material_329,brand_329,catergory_329,52 OZ,Glass Bottle- Other,59
+material_330,brand_330,catergory_330,26 OZ,Plastic Bottle,101
+material_331,brand_331,catergory_331,20 OZ,Aluminium Can,111
+material_332,brand_332,catergory_332,16.9 OZ,Plastic Bottle- Other,303
+material_333,brand_333,catergory_333,16.9 OZ,Bag-in-box,191
+material_334,brand_334,catergory_334,8.55 OZ,Glass Bottle- Other,66
+material_335,brand_335,catergory_335,31 OZ,Bag-in-box,376
+material_336,brand_336,catergory_336,2.5 GALLON,Plastic Bottle- Other,360
+material_337,brand_337,catergory_337,16.9 OZ,Plastic Bottle- Other,275
+material_338,brand_338,catergory_338,2.5 GALLON,Plastic Bottle- Other,497
+material_339,brand_339,catergory_339,51 OZ,Plastic Bottle,211
+material_340,brand_340,catergory_340,44 OZ,Glass Bottle- Other,50
+material_341,brand_341,catergory_341,36 OZ,Aluminium Can,402
+material_342,brand_342,catergory_342,16 OZ,Bag-in-box,184
+material_343,brand_343,catergory_343,8.55 OZ,Plastic Bottle,75
+material_344,brand_344,catergory_344,26 OZ,Glass Bottle- Other,253
+material_345,brand_345,catergory_345,23 OZ,Plastic Bottle- Other,391
+material_346,brand_346,catergory_346,32 OZ,Aluminium Can,208
+material_347,brand_347,catergory_347,2.5 GALLON,Plastic Bottle,495
+material_348,brand_348,catergory_348,1.25 LTR,Plastic Bottle,199
+material_349,brand_349,catergory_349,24 LTR,Plastic Bottle,224
+material_350,brand_350,catergory_350,8.55 OZ,Glass Bottle- Other,158
+material_351,brand_351,catergory_351,16 OZ,Plastic Bottle,333
+material_352,brand_352,catergory_352,20 OZ,Plastic Bottle- Other,450
+material_353,brand_353,catergory_353,25 GALLON,Plastic Bottle- Other,74
+material_354,brand_354,catergory_354,380 ML,Aluminium Can,129
+material_355,brand_355,catergory_355,12 OZ,Plastic Bottle- Other,33
+material_356,brand_356,catergory_356,12 OZ,Plastic Bottle- Other,377
+material_357,brand_357,catergory_357,13 OZ,Bag-in-box,351
+material_358,brand_358,catergory_358,35 LTR,Glass Bottle- Other,47
+material_359,brand_359,catergory_359,20 OZ,Plastic Bottle- Other,135
+material_360,brand_360,catergory_360,20 OZ,Plastic Bottle,434
+material_361,brand_361,catergory_361,27 OZ,Glass Bottle- Other,389
+material_362,brand_362,catergory_362,12 OZ,Aluminium Can,165
+material_363,brand_363,catergory_363,12 OZ,Plastic Bottle,265
+material_364,brand_364,catergory_364,16.9 OZ,Bag-in-box,7
+material_365,brand_365,catergory_365,1.25 LTR,Plastic Bottle,91
+material_366,brand_366,catergory_366,39 GALLON,Plastic Bottle,246
+material_367,brand_367,catergory_367,20 OZ,Plastic Bottle,278
+material_368,brand_368,catergory_368,20 GALLON,Plastic Bottle- Other,230
+material_369,brand_369,catergory_369,26 LTR,Aluminium Can,314
+material_370,brand_370,catergory_370,12 OZ,Bag-in-box,232
+material_371,brand_371,catergory_371,2.5 GALLON,Aluminium Can,93
+material_372,brand_372,catergory_372,30 OZ,Plastic Bottle,456
+material_373,brand_373,catergory_373,12 OZ,Plastic Bottle,64
+material_374,brand_374,catergory_374,33 OZ,Bag-in-box,96
+material_375,brand_375,catergory_375,3 LTR,Aluminium Can,352
+material_376,brand_376,catergory_376,1.25 LTR,Plastic Bottle,365
+material_377,brand_377,catergory_377,1.25 LTR,Plastic Bottle,471
+material_378,brand_378,catergory_378,50 OZ,Plastic Bottle,445
+material_379,brand_379,catergory_379,45 OZ,Aluminium Can,316
+material_380,brand_380,catergory_380,12 OZ,Aluminium Can,60
+material_381,brand_381,catergory_381,16 OZ,Bag-in-box,242
+material_382,brand_382,catergory_382,39 LTR,Plastic Bottle,77
+material_383,brand_383,catergory_383,12 LTR,Plastic Bottle- Other,327
+material_384,brand_384,catergory_384,8.55 OZ,Plastic Bottle,301
+material_385,brand_385,catergory_385,8.55 OZ,Bag-in-box,467
+material_386,brand_386,catergory_386,28 OZ,Plastic Bottle- Other,162
+material_387,brand_387,catergory_387,20 OZ,Bag-in-box,475
+material_388,brand_388,catergory_388,32 OZ,Aluminium Can,188
+material_389,brand_389,catergory_389,13 LTR,Bag-in-box,371
+material_390,brand_390,catergory_390,1.25 LTR,Plastic Bottle,378
+material_391,brand_391,catergory_391,12 OZ,Glass Bottle- Other,72
+material_392,brand_392,catergory_392,8.55 OZ,Plastic Bottle- Other,277
+material_393,brand_393,catergory_393,1.25 LTR,Plastic Bottle- Other,366
+material_394,brand_394,catergory_394,2.5 GALLON,Bag-in-box,98
+material_395,brand_395,catergory_395,2.5 GALLON,Aluminium Can,353
+material_396,brand_396,catergory_396,16 OZ,Bag-in-box,298
+material_397,brand_397,catergory_397,8.55 OZ,Bag-in-box,146
+material_398,brand_398,catergory_398,16.9 OZ,Aluminium Can,92
+material_399,brand_399,catergory_399,20 OZ,Aluminium Can,367
+material_400,brand_400,catergory_400,16.9 OZ,Aluminium Can,477
+material_401,brand_401,catergory_401,38 LTR,Aluminium Can,120
+material_402,brand_402,catergory_402,1.25 LTR,Plastic Bottle- Other,319
+material_403,brand_403,catergory_403,16 OZ,Glass Bottle- Other,404
+material_404,brand_404,catergory_404,28 LTR,Bag-in-box,381
+material_405,brand_405,catergory_405,15 GALLON,Plastic Bottle,336
+material_406,brand_406,catergory_406,15 OZ,Plastic Bottle,203
+material_407,brand_407,catergory_407,12 OZ,Aluminium Can,283
+material_408,brand_408,catergory_408,8.55 OZ,Aluminium Can,466
+material_409,brand_409,catergory_409,12 OZ,Bag-in-box,322
+material_410,brand_410,catergory_410,40 OZ,Aluminium Can,500
+material_411,brand_411,catergory_411,1.25 LTR,Bag-in-box,317
+material_412,brand_412,catergory_412,12 OZ,Bag-in-box,102
+material_413,brand_413,catergory_413,39 OZ,Glass Bottle- Other,195
+material_414,brand_414,catergory_414,16 OZ,Plastic Bottle- Other,223
+material_415,brand_415,catergory_415,20 OZ,Aluminium Can,484
+material_416,brand_416,catergory_416,2.5 GALLON,Bag-in-box,496
+material_417,brand_417,catergory_417,23 LTR,Aluminium Can,30
+material_418,brand_418,catergory_418,53 OZ,Glass Bottle- Other,110
+material_419,brand_419,catergory_419,12 OZ,Aluminium Can,229
+material_420,brand_420,catergory_420,12 OZ,Bag-in-box,193
+material_421,brand_421,catergory_421,377 ML,Aluminium Can,83
+material_422,brand_422,catergory_422,2.5 GALLON,Aluminium Can,36
+material_423,brand_423,catergory_423,12 OZ,Plastic Bottle,107
+material_424,brand_424,catergory_424,44 OZ,Plastic Bottle,168
+material_425,brand_425,catergory_425,8.55 OZ,Aluminium Can,145
+material_426,brand_426,catergory_426,1.25 LTR,Plastic Bottle,42
+material_427,brand_427,catergory_427,16.9 OZ,Bag-in-box,187
+material_428,brand_428,catergory_428,32 OZ,Glass Bottle- Other,405
+material_429,brand_429,catergory_429,45 OZ,Plastic Bottle- Other,180
+material_430,brand_430,catergory_430,20 OZ,Plastic Bottle- Other,262
+material_431,brand_431,catergory_431,1.25 LTR,Plastic Bottle,437
+material_432,brand_432,catergory_432,8.55 OZ,Bag-in-box,259
+material_433,brand_433,catergory_433,34 GALLON,Plastic Bottle- Other,412
+material_434,brand_434,catergory_434,2.5 GALLON,Plastic Bottle- Other,15
+material_435,brand_435,catergory_435,31 OZ,Glass Bottle- Other,373
+material_436,brand_436,catergory_436,8.55 OZ,Aluminium Can,390
+material_437,brand_437,catergory_437,358 ML,Bag-in-box,51
+material_438,brand_438,catergory_438,37 LTR,Bag-in-box,216
+material_439,brand_439,catergory_439,2.5 GALLON,Bag-in-box,147
+material_440,brand_440,catergory_440,8.55 OZ,Bag-in-box,465
+material_441,brand_441,catergory_441,49 OZ,Plastic Bottle,54
+material_442,brand_442,catergory_442,37 GALLON,Bag-in-box,56
+material_443,brand_443,catergory_443,1.25 LTR,Glass Bottle- Other,354
+material_444,brand_444,catergory_444,16 OZ,Plastic Bottle- Other,290
+material_445,brand_445,catergory_445,2.5 GALLON,Bag-in-box,347
+material_446,brand_446,catergory_446,16.9 OZ,Aluminium Can,130
+material_447,brand_447,catergory_447,38 GALLON,Plastic Bottle- Other,82
+material_448,brand_448,catergory_448,20 OZ,Plastic Bottle- Other,27
+material_449,brand_449,catergory_449,20 OZ,Bag-in-box,125
+material_450,brand_450,catergory_450,32 LTR,Plastic Bottle- Other,44
+material_451,brand_451,catergory_451,2.5 GALLON,Plastic Bottle,233
+material_452,brand_452,catergory_452,24 OZ,Plastic Bottle- Other,43
+material_453,brand_453,catergory_453,8.55 OZ,Aluminium Can,340
+material_454,brand_454,catergory_454,30 OZ,Aluminium Can,308
+material_455,brand_455,catergory_455,2.5 GALLON,Plastic Bottle,480
+material_456,brand_456,catergory_456,20 OZ,Glass Bottle- Other,109
+material_457,brand_457,catergory_457,51 OZ,Plastic Bottle,2
+material_458,brand_458,catergory_458,20 OZ,Plastic Bottle,142
+material_459,brand_459,catergory_459,8.55 OZ,Bag-in-box,14
+material_460,brand_460,catergory_460,20 OZ,Aluminium Can,410
+material_461,brand_461,catergory_461,36 GALLON,Plastic Bottle,472
+material_462,brand_462,catergory_462,16 OZ,Plastic Bottle- Other,328
+material_463,brand_463,catergory_463,370 ML,Plastic Bottle- Other,204
+material_464,brand_464,catergory_464,5 LTR,Plastic Bottle- Other,25
+material_465,brand_465,catergory_465,19 OZ,Plastic Bottle,39
+material_466,brand_466,catergory_466,9 GALLON,Plastic Bottle,31
+material_467,brand_467,catergory_467,383 ML,Plastic Bottle- Other,150
+material_468,brand_468,catergory_468,20 OZ,Plastic Bottle,5
+material_469,brand_469,catergory_469,2.5 GALLON,Plastic Bottle- Other,222
+material_470,brand_470,catergory_470,8.55 OZ,Plastic Bottle,451
+material_471,brand_471,catergory_471,356 ML,Bag-in-box,291
+material_472,brand_472,catergory_472,357 ML,Aluminium Can,448
+material_473,brand_473,catergory_473,20 OZ,Glass Bottle- Other,419
+material_474,brand_474,catergory_474,16 OZ,Aluminium Can,35
+material_475,brand_475,catergory_475,16 OZ,Plastic Bottle,248
+material_476,brand_476,catergory_476,392 ML,Glass Bottle- Other,239
+material_477,brand_477,catergory_477,16.9 OZ,Bag-in-box,177
+material_478,brand_478,catergory_478,16 OZ,Plastic Bottle,302
+material_479,brand_479,catergory_479,21 GALLON,Plastic Bottle- Other,113
+material_480,brand_480,catergory_480,20 OZ,Plastic Bottle- Other,261
+material_481,brand_481,catergory_481,29 OZ,Bag-in-box,350
+material_482,brand_482,catergory_482,46 OZ,Bag-in-box,409
+material_483,brand_483,catergory_483,46 OZ,Aluminium Can,114
+material_484,brand_484,catergory_484,22 GALLON,Aluminium Can,251
+material_485,brand_485,catergory_485,2.5 GALLON,Bag-in-box,438
+material_486,brand_486,catergory_486,388 ML,Glass Bottle- Other,185
+material_487,brand_487,catergory_487,20 OZ,Aluminium Can,8
+material_488,brand_488,catergory_488,16 OZ,Bag-in-box,121
+material_489,brand_489,catergory_489,18 OZ,Bag-in-box,214
+material_490,brand_490,catergory_490,16 OZ,Plastic Bottle- Other,181
+material_491,brand_491,catergory_491,365 ML,Plastic Bottle,26
+material_492,brand_492,catergory_492,16.9 OZ,Aluminium Can,20
+material_493,brand_493,catergory_493,28 OZ,Plastic Bottle,364
+material_494,brand_494,catergory_494,25 OZ,Aluminium Can,247
+material_495,brand_495,catergory_495,8.55 OZ,Plastic Bottle,273
+material_496,brand_496,catergory_496,8 GALLON,Glass Bottle- Other,287
+material_497,brand_497,catergory_497,16 OZ,Plastic Bottle,202
+material_498,brand_498,catergory_498,16 OZ,Aluminium Can,417
+material_499,brand_499,catergory_499,1.25 LTR,Plastic Bottle- Other,468
+material_500,brand_500,catergory_500,8.55 OZ,Bag-in-box,384

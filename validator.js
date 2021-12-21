@@ -1,7 +1,7 @@
 const csv = require('csv-parser')
 const path = require('path');
 const fs = require('fs')
-const file = 'material_data_final.csv';
+const file = 'materials_benchmark.csv';
 const results = [];
 
 
