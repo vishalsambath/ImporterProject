@@ -12,11 +12,21 @@ materials = [];
 //=================DB Connection==========================
 const mysql = require('mysql');
 const { exit } = require('process');
+const c = require('config');
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'testdb'
+    // host: 'localhost',
+    // user: 'root',
+    // password: 'root',
+    // database: 'testdb'
+    host: 'mysqlserverdb-qfitestvm2.mysql.database.azure.com',
+    user: 'mysqldbadmin@mysqlserverdb-qfitestvm2',
+    password: 'Mysql@dmin**362',
+    database: 'ordersmart',
+    PORT: 3306,
+    ssl: {
+        rejectUnauthorized: true,
+        ca: serverCa
+    }
 });
 connection.connect((err) => {
     if (err) throw err;
@@ -36,7 +46,7 @@ queryPromise1 = () => {
 
 queryPromise2 = () => {
     return new Promise((resolve, reject) => {
-        connection.query('select * from customer', (error, results) => {
+        connection.query('select mapping_customer_id from customer', (error, results) => {
             if (error) {
                 return reject(error);
             }
@@ -54,14 +64,20 @@ async function insertCustomerMaterials() {
     const promises = [promise1, promise2];
 
     try {
+        console.log('before response',promises);
         const result = await Promise.all(promises);
+        console.log(promises)
+        console.log('Helllo')
         for (let i = 0; i < Object.keys(result[0]).length; i++) {
             materials.push(result[0][i].mapping_material_id)
         }
-        console.log(materials)
+        for (let i = 0; i < Object.keys(result[1]).length; i++) {
+            customers.push(result[1][i].mapping_customer_id)
+        }
+        // console.log(materials)
         switch (path.extname(file)) {
             case '.csv':
-                //console.log("entering switch case")
+                console.log("entering switch case")
                 //===============Inserting CSV values to DB===================
                 fs.createReadStream(file)
                     .pipe(csv())
@@ -75,8 +91,9 @@ async function insertCustomerMaterials() {
                         }
                     })
                     .on('end', () => {
-                        console.log('Inserting')
-                        insertRows(results);
+                        
+                         console.log(' All good to insert!')
+                        // insertRows(results);
                     })
                 // ============================================================
                 break;
@@ -122,7 +139,6 @@ async function insertCustomerMaterials() {
     }
 }
 insertCustomerMaterials();
-
 
 // main()
 
